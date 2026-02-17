@@ -15,3 +15,5 @@ if(MSVC)
 endif()
 
 add_subdirectory ("calculator")
+add_subdirectory ("libs")
+add_subdirectory ("apps")

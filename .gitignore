@@ -4,7 +4,8 @@ build/
 # Игнорировать временные файлы редакторов (VS Code, Neovim)
 .vscode/
 .cache/
-
+.vs/
+.git/
 # Игнорировать файл базы данных CMake (он генерируется автоматически)
 compile_commands.json
 
