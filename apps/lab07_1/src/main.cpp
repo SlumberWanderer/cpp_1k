@@ -9,7 +9,7 @@ void printResults(double a, double b, int k, int n, double eps) {
     cout << setw(10) << "x"
         << setw(16) << "Exact"
         << setw(16) << "S(N=" << n << ")"
-        << setw(16) << "S(eps)" << "\n";
+        << setw(16) << "S(eps)" << endl;
 
     for (int i = 0; i < k; i++) {
         double x = a + i * h;
@@ -17,7 +17,7 @@ void printResults(double a, double b, int k, int n, double eps) {
         cout << setw(10) << x
             << setw(16) << series::exactValue(x)
             << setw(16) << series::sumByTerms(x, n)
-            << setw(16) << epsResult.value << "\n";
+            << setw(16) << epsResult.value << endl;
     }
 }
 
