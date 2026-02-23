@@ -14,6 +14,5 @@ if(MSVC)
  add_compile_definitions(_USE_MATH_DEFINES)
 endif()
 
-add_subdirectory ("calculator")
 add_subdirectory ("libs")
 add_subdirectory ("apps")
