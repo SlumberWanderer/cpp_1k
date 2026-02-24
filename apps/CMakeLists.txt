@@ -1,3 +1,4 @@
 ﻿add_subdirectory (calculator)
 add_subdirectory (lab07_1)
 add_subdirectory (sizeof)
+add_subdirectory (bits)
