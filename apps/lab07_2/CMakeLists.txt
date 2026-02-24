@@ -1,4 +1,4 @@
-project("lab07_1")
+project("lab07_2")
 
 file(GLOB SRC src/*.cpp src/*.cxx)
 
@@ -8,4 +8,4 @@ add_executable(${PROJECT_NAME} ${SRC}
         include/app.hpp
         src/main.cpp)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE series)
+target_link_libraries(${PROJECT_NAME} PRIVATE tabulation)
