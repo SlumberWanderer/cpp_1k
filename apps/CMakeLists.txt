@@ -10,4 +10,5 @@ add_subdirectory (student)
 add_subdirectory (phone)
 add_subdirectory (zip_country)
 add_subdirectory (pc)
+add_subdirectory (matrix)
 
