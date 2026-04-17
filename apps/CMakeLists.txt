@@ -12,4 +12,5 @@ add_subdirectory (zip_country)
 add_subdirectory (pc)
 add_subdirectory (matrix)
 add_subdirectory (point3D)
+add_subdirectory (cube)
 
