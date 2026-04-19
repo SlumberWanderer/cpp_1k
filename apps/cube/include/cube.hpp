@@ -62,7 +62,6 @@ private:
                 drawPoint(cubeX, -size, -cubeY, faces[4], offset);
                 drawPoint(cubeX, size, cubeY, faces[5], offset);
             }
-
         }
     }
 
