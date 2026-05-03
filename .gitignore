@@ -1,6 +1,7 @@
 build/
 dist/
 
+.kdev4/
 .vscode/
 .cache/
 .vs/
