@@ -30,8 +30,8 @@ int main() {
     m1(1, 0) = 3.0; m1(1, 1) = 4.0;
 
     Matrix m2(2, 2);
-    m2(0, 0) = 2.0; m2(0, 1) = 0.0;
-    m2(1, 0) = 1.0; m2(1, 1) = 2.0;
+    m2(0, 0) = 5.0; m2(0, 1) = 6.0;
+    m2(1, 0) = 7.0; m2(1, 1) = 8.0;
 
     cout << "Matrix M1:" << endl << m1;
     cout << "Matrix M2:" << endl << m2;
@@ -40,7 +40,7 @@ int main() {
     cout << "M1 - M2:" << endl << (m1 - m2);
     cout << "M1 * M2:" << endl << (m1 * m2);
 
-    cout << "Rectangular multiplication (2x3 * 3x2):" << endl;
+    cout << "Rectangular multiplication:" << endl;
     Matrix rectA(2, 3);
     Matrix rectB(3, 2);
 
