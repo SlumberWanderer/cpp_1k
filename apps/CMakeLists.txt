@@ -18,4 +18,5 @@ add_subdirectory (person_heart)
 add_subdirectory (vector3D_app)
 add_subdirectory (animal)
 add_subdirectory (geometric_shapes)
+add_subdirectory (safe_math)
 
