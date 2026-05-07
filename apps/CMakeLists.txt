@@ -19,4 +19,6 @@ add_subdirectory (vector3D_app)
 add_subdirectory (animal)
 add_subdirectory (geometric_shapes)
 add_subdirectory (safe_math)
+add_subdirectory (smart_library)
+add_subdirectory (bank_ptr)
 
