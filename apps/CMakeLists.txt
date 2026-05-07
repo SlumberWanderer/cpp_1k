@@ -16,4 +16,5 @@ add_subdirectory (cube)
 add_subdirectory (vector2D)
 add_subdirectory (person_heart)
 add_subdirectory (vector3D_app)
+add_subdirectory (animal)
 
