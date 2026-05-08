@@ -21,4 +21,5 @@ add_subdirectory (geometric_shapes)
 add_subdirectory (safe_math)
 add_subdirectory (smart_library)
 add_subdirectory (bank_ptr)
+add_subdirectory (array_templates)
 
